@@ -46,7 +46,9 @@ The following command runs the program
     $ ./asciidraw
 
 The following files are provided for your convenience (but not presently used)
-- 5x7font.c: defines the bitmaps of a 5x7 font (5 rows, 7 cols).  Each col is stored as a bitmap of type char
+- 5x7font.c: defines the bitmaps of a 5x7 font (5 rows, 7 cols).  Each col is
+stored as a bitmap of
+type char
 - 8x12font.c: defines the bitmaps of an 8x12 font (8 rows, 12 cols).  Each row is stored as a bitmap of type char.
 
 # Pleae try to be polite and respectful
@@ -78,7 +80,7 @@ Please observe the following standard C coding practices:
   You are welcome to use either the 5x7 or 8x12 fonts we provide.  
   To reference the font file, you'll also need to modify the Makefile.
   
-  Be sure to watch this video on how to [render bitmap fonts](https://www.youtube.com/playlist?list=PLW7kRC02iWTIxCZzo2IKSNpN15lRscCs2).
+  Be sure to watch this video on how to [render bitmap fonts] (https://www.youtube.com/playlist?list=PLW7kRC02iWTIxCZzo2IKSNpN15lRscCs2).
  
  
  # Learning outcomes
@@ -89,4 +91,3 @@ Please observe the following standard C coding practices:
  - bitfield manipulation
  - able to use make & understand and modify Makefiles 
  - abile to understand and modify simple programs written in C
-
